@@ -7,7 +7,7 @@ This repository contains:
 
 1. Codes for the project.
 2. [The specification](SnowmanAdvanture/README.txt) for running this project.
-3. [The feedback](Feedbeack.txt) from TAs & Profs of CSC207
+3. [The feedback](Feedback.txt) from TAs & Profs of CSC207
 
 ## Install
 This project uses [android studio](https://developer.android.com/studio). Go check it out if you don't have them locally installed.
