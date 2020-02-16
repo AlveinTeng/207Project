@@ -1,7 +1,7 @@
 # CSC207_PROJECT README
 Snowman Adventure
 
-This is the project that my teammate and I created during CSC207. This project is a mobile game for andriod, containing five small games.
+This is the project that my teammate and I created during CSC207. This project is a mobile game for andriod, containing five small games. This project got 95 out of 100 in the end.
 
 This repository contains:
 
