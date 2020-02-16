@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fall2019.csc207.snowmanadventure">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="Snowman Adventure"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".Views.Login.StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Views.Login.SignInActivity"/>
+        <activity android:name=".Views.Login.SignUpActivity"/>
+        <activity android:name=".Views.Game.GameMenu.NewGamesActivity"/>
+        <activity android:name=".Views.Game.GameOne.GameOneActivity"/>
+        <activity android:name=".Views.Game.GameOne.GameOneInsActivity"/>
+        <activity android:name=".Views.Game.GameTwo.GameTwoActivity"/>
+        <activity android:name=".Views.Game.GameTwo.GameTwoInsActivity"/>
+        <activity android:name=".Views.Game.GameThree.GameThreeActivity"/>
+        <activity android:name=".Views.Game.GameThree.GameThreeInsActivity"/>
+        <activity android:name=".Views.Game.GameFour.GameFourActivity"/>
+        <activity android:name=".Views.Game.GameFour.GameFourInsActivity"/>
+        <activity android:name=".Views.ScoreBoard.ScoreBoardMenuActivity"/>
+        <activity android:name=".Views.ScoreBoard.ScoreBoardActivity"/>
+        <activity android:name=".Views.Reward.RewardActivity"/>
+        <activity android:name=".Views.Game.GameFive.GameFiveActivity" />
+        <activity android:name=".Views.Game.GameFive.GameFiveInsActivity" />
+        <activity android:name=".Views.Game.GameOver.GameOverMenuActivity" />
+    </application>
+
+</manifest>

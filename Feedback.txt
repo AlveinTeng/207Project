@@ -1,0 +1,48 @@
+Dear group_0618
+
+This semester, we talked about MVP, the Model-View-Presenter architecture. It has many advantages, particularly when working with Android. As you can see from your project, your activity classes have methods that are specific to Android. If you encapsulate the rest of your code sufficiently, it is possible to port it to another platform simply by creating a new UI (for example, a website).
+
+Encapsulation can take on many forms. You can package your View classes together. You can ensure that your dependencies go one-way, towards the inner more abstract layers. You can incorporate SOLID principles as much as possible and design patterns where they make sense.
+Here is feedback that is specific to your project:
+
+You made good use of…
++ MVP architecture was used to package and define dependencies between classes.
++ Design Patterns: You made good use of Facade, Factory (ImageManager), and Builder (to build each game) design patterns! Good job!
++ Interfaces: Good use of interfaces, for example in presenter package. 
++ SOLID Principles: Most classes adhere well to single responsibility principle. Implementation of Dependency Inversion principle was evident in most classes.
++ Serialization: Good implementation of Serializable to store data about users and game state. 
++ OOP concepts and principles: Great job on applying your OOP knowledge in this project. For example, you made great use of inheritance and abstract classes!
++ Excellent packaging: You had a good clear rationale behind your packaging! 
++ Following naming conventions: Your variables, classes, and methods perfectly followed Java naming conventions!
++ Use of various Data Structures: Lists, maps, etc.
++ Visibility of variables and methods: Your variables and methods were mostly private or protected with proper getters and setters.
++ Excellent initiative to test the games on different devices with different resolutions.
+
+The user sees…
++ A nice icon for your application!
++ Nice consistent UI with pleasant graphics. 
++ The user also hears music playing in the background. 
++ The login page lets the user create a new account or log in to an existing account. If the wrong password is entered, the user is prompted with a warning message. If a user tries to create an account with an existing username, the user is alerted to choose a different username.
++ The main screen lets the user choose any of the five games (SkyLadder, Flying Snowman, Catching ball, magic cards, matching cards) to play. Each game comes with nice instructions before it starts.  All five games are well designed and are fairly complex. The main screen has three buttons:
+  - The first button opens an activity to view the scoreboard, which allows the user to sort by different criteria. 
+  - The second button lets the user pick the background - night or daylight. 
+  - The third button lets the user choose their snowman character that will be displayed in the games.
++ The feature to stop the game by pressing the return button, and resume when they play the game again. 
++ Improvements from Phase 2:
+  - Javadocs
+  - Facade
+  - Factory
+  - Removing unnecessary static variables
+
++ A good next step would be to…
++ (Optional) Migrate to another database such as SQLite.
++ (Optional) Adding new language settings.
++ Although some of the code was well documented, adding and making javadocs and comments style consistent throughout your program will help you and new users navigate the code better. 
++ Reconsider your factory hierarchy. Currently, there are two concrete factories. This is fine, except the two get methods are completely unrelated and the gameManagerFactory, therefore, has to have a method that is irrelevant to the game ManagerFactory.
++ You have five classes (ImageManager1 through ImageManager5). These names can be replaced with names that indicate what each class does. In general, we want to make it easy for a new group member to figure out where everything is without having to read each class.
+
+We hope that you enjoyed working on this project and found it a useful learning experience.
+
+Cheers,
+The CSC207 Instructional Team
+

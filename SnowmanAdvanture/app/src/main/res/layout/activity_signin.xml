@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="446dp"
+            android:layout_height="775dp"
+            android:tint="#97FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/signin" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="129dp"
+            android:layout_height="48dp"
+            android:drawableTint="#FFFFFF"
+            android:text="SIGN IN"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#050505"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.13" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="124dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="212dp"
+            android:text="User name:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#0E0D0D"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.132"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_user_ok_login"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="24dp"
+            android:drawableTint="#111010"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/et_user_login"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.385" />
+
+        <TextView
+            android:id="@+id/tv_password_ok_login"
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/et_password_login"
+            app:layout_constraintTop_toBottomOf="@+id/tv_user_ok_login"
+            app:layout_constraintVertical_bias="0.342" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="124dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="120dp"
+            android:text="Password:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#090808"
+            app:layout_constraintBottom_toTopOf="@+id/et_password_login"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.135"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <EditText
+            android:id="@+id/et_user_login"
+            android:layout_width="309dp"
+            android:layout_height="55dp"
+            android:backgroundTint="#F8181616"
+            android:drawableTint="#F5292525"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#131212"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.372"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.39" />
+
+        <EditText
+            android:id="@+id/et_password_login"
+            android:layout_width="309dp"
+            android:layout_height="55dp"
+            android:backgroundTint="#FA0F0E0E"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColor="#F8111111"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.365"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_user_login"
+            app:layout_constraintVertical_bias="0.263" />
+
+        <Button
+            android:id="@+id/btn_signin_confirm"
+            android:layout_width="333dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#66110F0F"
+            android:text="CONFIRM"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FAF7F1F1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/et_password_login" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

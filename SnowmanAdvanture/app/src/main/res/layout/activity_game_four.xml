@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fall2019.csc207.snowmanadventure.Views.CustomizedGameViews.MagicCardView
+            android:id="@+id/magicCardView"
+            android:layout_width="411dp"
+            android:layout_height="622dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.428"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/btn_hit"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:text="HIT"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.149"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/magicCardView"
+            app:layout_constraintVertical_bias="0.684" />
+
+        <Button
+            android:id="@+id/btn_stand"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:text="STAND"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toEndOf="@+id/btn_hit"
+            app:layout_constraintTop_toBottomOf="@+id/magicCardView"
+            app:layout_constraintVertical_bias="0.684" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

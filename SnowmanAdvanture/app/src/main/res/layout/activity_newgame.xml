@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="448dp"
+            android:layout_height="790dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.513"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.508"
+            app:srcCompat="@drawable/newgameback" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Snowman Adventure"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#F70E0D0D"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.577"
+            app:layout_constraintStart_toStartOf="@+id/imageView4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.118" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="170dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="99dp"
+            android:layout_marginEnd="66dp"
+            android:layout_marginBottom="80dp"
+            android:text="Choose A Game"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FD111111"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.28"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textView5"
+            app:layout_constraintVertical_bias="0.294" />
+
+        <TextView
+            android:id="@+id/tv_welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#090808"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.237" />
+
+        <Button
+            android:id="@+id/btn_game_one"
+            android:layout_width="155dp"
+            android:layout_height="83dp"
+            android:layout_marginBottom="272dp"
+            android:backgroundTint="#AD201F1F"
+            android:text="SkyLadder"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.082"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/btn_game_three"
+            android:layout_width="173dp"
+            android:layout_height="75dp"
+            android:backgroundTint="#9F0F0E0E"
+            android:text="CatchingBall"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.067"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_game_two"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/btn_game_two"
+            android:layout_width="203dp"
+            android:layout_height="59dp"
+            android:backgroundTint="#9F161515"
+            android:text="FlyingSnowman"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_game_one"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/btn_game_four"
+            android:layout_width="179dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="66dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="@android:dimen/thumbnail_height"
+            android:backgroundTint="#9F0F0E0E"
+            android:text="MagicCards"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageView4"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/btn_game_three"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4"
+            app:layout_constraintVertical_bias="0.676" />
+
+        <Button
+            android:id="@+id/btn_game_five"
+            android:layout_width="191dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="200dp"
+            android:layout_marginBottom="36dp"
+            android:backgroundTint="#9F0F0E0E"
+            android:text="MatchingCards"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintBottom_toTopOf="@+id/imageView4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_game_four"
+            app:layout_constraintVertical_bias="0.021" />
+
+        <ImageButton
+            android:id="@+id/ibtn_reset"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:backgroundTint="#004F4D4D"
+            app:layout_constraintBottom_toTopOf="@+id/textView5"
+            app:layout_constraintEnd_toStartOf="@+id/ibtn_rewards"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@color/colorAccent" />
+
+        <ImageButton
+            android:id="@+id/ibtn_rewards"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:backgroundTint="#004F4D4D"
+            app:layout_constraintBottom_toTopOf="@+id/textView5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/reward" />
+
+        <ImageButton
+            android:id="@+id/ibtn_score_board"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:backgroundTint="#004F4D4D"
+            app:layout_constraintBottom_toTopOf="@+id/textView5"
+            app:layout_constraintEnd_toStartOf="@+id/ibtn_reset"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/list" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
