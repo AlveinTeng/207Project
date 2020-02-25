@@ -21,7 +21,7 @@ You can run the project using the android studio, or you can generate an apk fil
 This project exists thanks to all the teammates:
 - [Jiakai Shi](https://github.com/VictorS67)
 - [Yao Kuang](https://github.com/kylin99)
-- [Jiayi Xing](https://github.com/shURenZHOUluxun)
+- [Jiayi Zeng](https://github.com/shURenZHOUluxun)
 - [Yutong Chen](https://github.com/GAsInGood)
 - [Ruoxi Su](https://github.com/SunashZero)
 - [Mingxuan Teng](https://github.com/AlveinTeng)
